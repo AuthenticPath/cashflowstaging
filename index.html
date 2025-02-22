@@ -417,7 +417,7 @@
     <h1>Enhanced Cash Flow Manager</h1>
     <!-- Intro Text -->
     <p id="intro-text">
-      With this <strong>Enhanced Cash Flow Manager</strong>, you can easily track your income, expenses, and bank balances, giving you full visibility and clarity around your finances. To learn more, click the "Instructions" button below.
+      With this Enhanced Cash Flow Manager, you can easily track your income, expenses, and bank balances, giving you full visibility and clarity around your finances. To learn more, click the "Instructions" button below.
     </p>
     <!-- Instructions Button -->
     <button id="instructionsBtn">Instructions</button>
@@ -673,108 +673,82 @@
   </div>
 
   <!-- Instructions Dialog -->
-  <dialog id="instructionsDialog">
-    <div id="instructionsContent">
-      <p>This guide will walk you through the key features and show you how to make the most of your tracker.</p>
-      <hr>
-      <h2>Getting Started</h2>
-      <h3>1. Add Your Paydays</h3>
-      <p>Your cash flow starts with knowing when you get paid.</p>
-      <ul>
-        <li>Click the <strong>Paydays</strong> section.</li>
-        <li>Select your <strong>pay schedule</strong> (e.g., weekly, bi-monthly, or a specific date).</li>
-        <li>If you pick <strong>Specific Day</strong>, enter the exact day of the month.</li>
-        <li>Click <strong>Add Payday</strong> to save.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> This helps predict when money comes in, so you can plan expenses accordingly.</p>
-      <hr>
-      <h3>2. Enter Your Bank Accounts</h3>
-      <p>Keep track of where your money is stored!</p>
-      <ul>
-        <li>Go to the <strong>Bank Accounts</strong> section.</li>
-        <li>Enter the <strong>name</strong> of your account (e.g., "Main Checking").</li>
-        <li>(Optional) Add your current <strong>balance</strong> if you want to track it.</li>
-        <li>Click <strong>Add Bank Account</strong> to save.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> Knowing your balances ensures you never overdraw your accounts.</p>
-      <hr>
-      <h3>3. Import or Add Recurring Bills</h3>
-      <p>Predictable expenses like rent, utilities, and subscriptions? Add them here!</p>
-      <ul>
-        <li>Use the <strong>CSV Import</strong> feature to upload a list of recurring bills OR</li>
-        <li>Manually enter each bill:
-          <ul>
-            <li>Name (e.g., "Rent")</li>
-            <li>Amount (e.g., "$1200")</li>
-            <li>Due date (Day of the month)</li>
-            <li>The <strong>bank account</strong> that pays the bill.</li>
-          </ul>
-        </li>
-        <li>Click <strong>Add Recurring Bill</strong> to save.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> This helps you plan ahead and avoid missing payments.</p>
-      <hr>
-      <h3>4. Track Periodic Expenses</h3>
-      <p>Some expenses don’t happen every month, but they still need to be planned for!</p>
-      <ul>
-        <li>Enter periodic expenses like <strong>car insurance, holiday shopping, or annual fees.</strong></li>
-        <li>Choose between:
-          <ul>
-            <li><strong>Occurrences per year</strong> (e.g., car insurance paid twice a year) OR</li>
-            <li><strong>Specific months</strong> (e.g., vacation savings every June & December).</li>
-          </ul>
-        </li>
-        <li>Click <strong>Add Periodic Expense</strong> to save.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> Planning ahead prevents surprise expenses from wrecking your budget.</p>
-      <hr>
-      <h3>5. Choose Your Paycheck Distribution Plan</h3>
-      <p>Decide how your paycheck gets split across your accounts!</p>
-      <ul>
-        <li>Choose a <strong>distribution method:</strong>
-          <ul>
-            <li><strong>Equal Split</strong> (divides paycheck evenly across accounts).</li>
-            <li><strong>Custom Allocation</strong> (set specific amounts for each account).</li>
-            <li><strong>Single Account</strong> (entire paycheck to one account).</li>
-            <li><strong>Proportional to Expenses</strong> (allocates based on bill amounts).</li>
-          </ul>
-        </li>
-        <li>If using <strong>Custom Allocation</strong>, enter amounts and <strong>Lock Custom Distribution</strong>.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> This ensures your money is set aside correctly as soon as you get paid.</p>
-      <hr>
-      <h3>6. Calculate Required Balances</h3>
-      <p>Find out how much you need in each account to cover upcoming expenses!</p>
-      <ul>
-        <li>Select a <strong>cycle date</strong> (any day of the month to analyze from).</li>
-        <li>Click <strong>Calculate</strong>.</li>
-        <li>View:
-          <ul>
-            <li><strong>Upcoming bills & expenses</strong> for the selected period.</li>
-            <li><strong>Total required balance</strong> for each bank account.</li>
-            <li><strong>Surplus/Deficit</strong> (extra money left or shortage).</li>
-            <li><strong>Daily spend budget</strong> (how much you can safely spend per day).</li>
-          </ul>
-        </li>
-      </ul>
-      <p><strong>Why it matters:</strong> This helps you see if you have enough money and adjust before it’s too late.</p>
-      <hr>
-      <h3>7. Review Monthly &amp; Pay-Period Expense Totals</h3>
-      <p>Get a full breakdown of your expenses!</p>
-      <ul>
-        <li><strong>Pay-Period Totals:</strong> Shows what’s due before your next paycheck.</li>
-        <li><strong>Monthly Totals:</strong> Gives an overview of all expenses in a month.</li>
-        <li><strong>Bank Account Breakdown:</strong> See which accounts are funding each expense.</li>
-      </ul>
-      <p><strong>Why it matters:</strong> Tracking these numbers helps you fine-tune your budget over time.</p>
-      <hr>
-      <h2>Final Thoughts</h2>
-      <p>The Enhanced Cash Flow Manager gives you complete visibility into your finances. By keeping your paydays, bills, and account balances updated, you’ll always know where your money is going and how to stay on track.</p>
-      <p>Start using your tracker today and take control of your cash flow!</p>
-      <p><strong>Happy budgeting! 🎉</strong></p>
-    </div>
-    <button id="closeInstructionsBtn">Close</button>
-  </dialog>
+<dialog id="instructionsDialog">
+  <div id="instructionsContent">
+    <p>This guide will walk you through the key features and show you how to make the most of your tracker.</p>
+    <hr>
+    <h2>Getting Started</h2>
+    <h3>1. Add Your Paydays</h3>
+    <p>Your cash flow starts with knowing when you get paid.</p>
+    <p>Click the <strong>Paydays</strong> section.</p>
+    <p>Select your <strong>pay schedule</strong> (e.g., weekly, bi-monthly, or a specific date).</p>
+    <p>If you pick <strong>Specific Day</strong>, enter the exact day of the month.</p>
+    <p>Click <strong>Add Payday</strong> to save.</p>
+    <p><strong>Why it matters:</strong> This helps predict when money comes in, so you can plan expenses accordingly.</p>
+    <hr>
+    <h3>2. Enter Your Bank Accounts</h3>
+    <p>Keep track of where your money is stored!</p>
+    <p>Go to the <strong>Bank Accounts</strong> section.</p>
+    <p>Enter the <strong>name</strong> of your account (e.g., "Main Checking").</p>
+    <p>(Optional) Add your current <strong>balance</strong> if you want to track it.</p>
+    <p>Click <strong>Add Bank Account</strong> to save.</p>
+    <p><strong>Why it matters:</strong> Knowing your balances ensures you never overdraw your accounts.</p>
+    <hr>
+    <h3>3. Import or Add Recurring Bills</h3>
+    <p>Predictable expenses like rent, utilities, and subscriptions? Add them here!</p>
+    <p>Use the <strong>CSV Import</strong> feature to upload a list of recurring bills OR</p>
+    <p>Manually enter each bill:</p>
+    <p>Name (e.g., "Rent")</p>
+    <p>Amount (e.g., "$1200")</p>
+    <p>Due date (Day of the month)</p>
+    <p>The <strong>bank account</strong> that pays the bill.</p>
+    <p>Click <strong>Add Recurring Bill</strong> to save.</p>
+    <p><strong>Why it matters:</strong> This helps you plan ahead and avoid missing payments.</p>
+    <hr>
+    <h3>4. Track Periodic Expenses</h3>
+    <p>Some expenses don’t happen every month, but they still need to be planned for!</p>
+    <p>Enter periodic expenses like <strong>car insurance, holiday shopping, or annual fees.</strong></p>
+    <p>Choose between:</p>
+    <p><strong>Occurrences per year</strong> (e.g., car insurance paid twice a year) OR</p>
+    <p><strong>Specific months</strong> (e.g., vacation savings every June & December).</p>
+    <p>Click <strong>Add Periodic Expense</strong> to save.</p>
+    <p><strong>Why it matters:</strong> Planning ahead prevents surprise expenses from wrecking your budget.</p>
+    <hr>
+    <h3>5. Choose Your Paycheck Distribution Plan</h3>
+    <p>Decide how your paycheck gets split across your accounts!</p>
+    <p>Choose a <strong>distribution method:</strong></p>
+    <p><strong>Equal Split</strong> (divides paycheck evenly across accounts).</p>
+    <p><strong>Custom Allocation</strong> (set specific amounts for each account).</p>
+    <p><strong>Single Account</strong> (entire paycheck to one account).</p>
+    <p><strong>Proportional to Expenses</strong> (allocates based on bill amounts).</p>
+    <p>If using <strong>Custom Allocation</strong>, enter amounts and <strong>Lock Custom Distribution</strong>.</p>
+    <p><strong>Why it matters:</strong> This ensures your money is set aside correctly as soon as you get paid.</p>
+    <hr>
+    <h3>6. Calculate Required Balances</h3>
+    <p>Find out how much you need in each account to cover upcoming expenses!</p>
+    <p>Select a <strong>cycle date</strong> (any day of the month to analyze from).</p>
+    <p>Click <strong>Calculate</strong>.</p>
+    <p>View:</p>
+    <p><strong>Upcoming bills & expenses</strong> for the selected period.</p>
+    <p><strong>Total required balance</strong> for each bank account.</p>
+    <p><strong>Surplus/Deficit</strong> (extra money left or shortage).</p>
+    <p><strong>Daily spend budget</strong> (how much you can safely spend per day).</p>
+    <p><strong>Why it matters:</strong> This helps you see if you have enough money and adjust before it’s too late.</p>
+    <hr>
+    <h3>7. Review Monthly &amp; Pay-Period Expense Totals</h3>
+    <p>Get a full breakdown of your expenses!</p>
+    <p><strong>Pay-Period Totals:</strong> Shows what’s due before your next paycheck.</p>
+    <p><strong>Monthly Totals:</strong> Gives an overview of all expenses in a month.</p>
+    <p><strong>Bank Account Breakdown:</strong> See which accounts are funding each expense.</p>
+    <p><strong>Why it matters:</strong> Tracking these numbers helps you fine-tune your budget over time.</p>
+    <hr>
+    <h2>Final Thoughts</h2>
+    <p>The Enhanced Cash Flow Manager gives you complete visibility into your finances. By keeping your paydays, bills, and account balances updated, you’ll always know where your money is going and how to stay on track.</p>
+    <p>Start using your tracker today and take control of your cash flow!</p>
+    <p><strong>Happy budgeting! 🎉</strong></p>
+  </div>
+  <button id="closeInstructionsBtn">Close</button>
+</dialog>
 
   <!--
     JavaScript Section:
